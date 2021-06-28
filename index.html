@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO buoi 5</title>
+</head>
+<body>
+    <h1>Nhấn chuột phải -> inspect / inspect element -> console để hiện console</h1>
+
+    <p id="text">11111111111</p>
+
+    <!-- Có 2 cách để chạy functions bằng cách bấm vào button -->
+    
+    <!-- Cách 1: dùng thuộc tính onclick: -->
+    <button id="change-text" onclick="changeText()">Bấm để thay đổi số thành 2222222222</button>
+    <!-- khi bấm vào, do thuộc tính onclick nên sẽ chạy function changeText() -->
+
+    <!-- Cách 2: dùng addEventListener: -->
+    <button id="change-color">Bấm để thay đổi màu chữ thành đỏ</button>
+
+
+    <!-- Nhúng 2 file JS vào trong HTML. Ghi nhớ: nhúng JS ở cuối thẻ body -->
+
+    <!-- console.js mang code phần 1: biến, console.log, prompt, các phép toán -->
+    <script src="console.js"></script>
+    
+    <!-- DOM.js mang phần 2: Sử dụng JS để thay đổi HTML -->
+    <script src="DOM.js"></script>
+</body>
+</html>
